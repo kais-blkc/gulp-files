@@ -20,6 +20,8 @@
     "gulp-file-include": "^2.2.2",
     "gulp-fonter": "^0.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-pug": "^4.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
@@ -27,5 +29,8 @@
     "gulp-ttf2woff": "^1.1.1",
     "gulp-ttf2woff2": "^3.0.0",
     "gulp-uglify-es": "^2.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
   }
 }
