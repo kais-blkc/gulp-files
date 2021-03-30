@@ -17,7 +17,7 @@ let path = {
 		html: source_folder + '/*.html',
 		pug: source_folder + '/pug/*.pug',
 		sass: source_folder + `/sass/*.${style_type}`,
-		css: source_folder + '/css/',
+		css: source_folder + '/css/**/*',
 		js: source_folder + '/js/*.js',
 		jsCopy: source_folder + '/jsCopy/*.js',
 		img: source_folder + '/img/**/*.{jpg,png,svg,gif,ico,webp}',
