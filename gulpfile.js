@@ -17,7 +17,7 @@ let path = {
 		html: source_folder + '/*.html',
 		pug: source_folder + '/pug/*.pug',
 		sass: source_folder + `/sass/*.${style_type}`,
-		css: source_folder + '/css/**/*',
+		css: source_folder + '/css/**/*.css',
 		js: source_folder + '/js/*.js',
 		jsCopy: source_folder + '/jsCopy/*.js',
 		img: source_folder + '/img/**/*.{jpg,png,svg,gif,ico,webp}',
@@ -208,7 +208,10 @@ function watchFiles() {
 
 
 // GULP COMMANDS
+
+/* Build */
 let build = gulp.series(clean, gulp.parallel(pugF, sassF, js, img, fonts, fontStyle));
+/* Development */
 let watch = gulp.parallel(browserSync, build, watchFiles);
 
 // EXPPORTS
