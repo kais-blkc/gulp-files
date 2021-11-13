@@ -104,10 +104,8 @@ function sassF() {
 
 // COPY CSS
 function copyCss() {
-	src(path.src.css + 'webfonts/*')
-	.pipe(dest(path.build.css + 'webfonts/'));
-	return src(path.src.css + 'f-a-pro-all.min.css')
-	.pipe(dest(path.build.css + 'font-awesome-css'))
+	return src(path.src.css)
+	.pipe(dest(path.build.css))
 	.pipe(browsersync.stream())
 }
 
