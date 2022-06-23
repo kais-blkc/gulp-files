@@ -4,7 +4,8 @@
   "description": "portfolio site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "downPacks": "npm i babel browser-sync del gulp gulp-autoprefixed gulp-autoprefixer gulp-babel gulp-clean-css gulp-file-include gulp-fonter gulp-group-css-media-queries gulp-notify gulp-plumber gulp-pug gulp-rename gulp-sourcemaps gulp-ttf2woff gulp-ttf2woff2 gulp-uglify-es"
   },
   "author": "kais",
   "license": "ISC",
